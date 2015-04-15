@@ -1,4 +1,4 @@
-var App = React.createClass({
+var Rndr = React.createClass({
   getDefaultProps:function(){
     return {
       greeting: 'Hello',
@@ -26,5 +26,5 @@ var App = React.createClass({
   }
 });
 
-// Render app component on body
-React.render(<App place="World" />, document.body);
+// Render Rndr component on body
+React.render(<Rndr place="World" />, document.body);
