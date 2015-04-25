@@ -1,6 +1,7 @@
 var AppConstants = require('../constants/app-constants.js');
 var AppDispatcher = require('../dispatchers/app-dispatcher.js');
 
+// Actions in React describe events
 var AppActions = {
   addItem:function(item){
     AppDispatcher.handleViewAction({
